@@ -9,11 +9,11 @@ spec:
   #   https://github.com/ansible/awx-operator/blob/2.19.1/README.md
 
   admin_user: admin
-  admin_password_secret: awx-admin-password
+  admin_password_secret: Bmgp2008
 
   ingress_type: ingress
   ingress_hosts:
-    - hostname: awx.example.com
+    - hostname: awx.aopatricio.com.br
       tls_secret: awx-secret-tls
 
   postgres_configuration_secret: awx-postgres-configuration

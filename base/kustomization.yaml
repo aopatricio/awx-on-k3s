@@ -16,17 +16,17 @@ secretGenerator:
   - name: awx-postgres-configuration
     type: Opaque
     literals:
-      - host=awx-postgres-15
+      - host=172.20.36.62
       - port=5432
-      - database=awx
+      - database=awxdb
       - username=awx
-      - password=Ansible123!
+      - password=awx@2025
       - type=managed
 
   - name: awx-admin-password
     type: Opaque
     literals:
-      - password=Ansible123!
+      - password=Bmgp2008
 
   # If you want to specify SECRET_KEY for your AWX manually, uncomment following lines and change the value.
   # Refer AAC documentation for detail about SECRET_KEY.

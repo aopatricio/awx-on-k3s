@@ -23,7 +23,8 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   capacity:
-    storage: 2Gi
+    storage: 3Gi
   storageClassName: awx-projects-volume
   hostPath:
-    path: /data/projects
+    #path: /data/projects
+    path: /var/lib/awx/projects
